@@ -4,8 +4,13 @@ export const COMPANY = {
   tagline: "Trusted Electrical & Mechanical Solutions",
   subTagline: "Reliable Industrial Supply Partner in Saudi Arabia",
 
+<<<<<<< HEAD
   phone: "+966 53 835 7119",
   whatsapp: "966538357119",
+=======
+  phone: "+966 56 190 8308",
+  whatsapp: "966561908308",
+>>>>>>> 79d90a3 (Initial commit)
   email: "sales@almohannasa.com",
 
   address: "Ghorabi Electrical Market, Batha, Riyadh",

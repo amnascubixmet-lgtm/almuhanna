@@ -17,7 +17,11 @@ export default function CTASection({
   title = "Need Reliable Electrical & Mechanical Supply?",
   description = "Connect with ANS Trade for premium industrial products, competitive pricing, and fast support across Saudi Arabia.",
   primaryText = "Contact on WhatsApp",
+<<<<<<< HEAD
   primaryHref = "https://wa.me/966538357119",
+=======
+  primaryHref = "https://wa.me/966561908308",
+>>>>>>> 79d90a3 (Initial commit)
   secondaryText = "View Products",
   secondaryHref = "/products",
 }: CTASectionProps) {

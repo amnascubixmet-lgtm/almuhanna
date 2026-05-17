@@ -77,7 +77,7 @@ export default function RootLayout({
     logo: "https://www.almuhannaco.com/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+966538357119",
+      telephone: "+966 56 190 8308",
       contactType: "customer service",
       areaServed: "SA",
       availableLanguage: ["English", "Arabic"],

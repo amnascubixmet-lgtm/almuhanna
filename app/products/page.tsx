@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-=======
 "use client";
 
 import { useMemo, useState } from "react";
->>>>>>> 79d90a3 (Initial commit)
 import CategorySection from "@/components/CategorySection";
 import SectionHeader from "@/components/SectionHeader";
 import CTASection from "@/components/CTASection";
 import { productCategories, products } from "@/data/products";
 
 export default function ProductsPage() {
-<<<<<<< HEAD
-=======
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -34,7 +29,6 @@ export default function ProductsPage() {
   const visibleCategories =
     activeCategory === "All" ? productCategories : [activeCategory];
 
->>>>>>> 79d90a3 (Initial commit)
   return (
     <>
       {/* HERO */}
@@ -62,8 +56,6 @@ export default function ProductsPage() {
             description="Explore our category-wise electrical and mechanical industrial product range. Click More Details to send direct WhatsApp inquiry."
             center
           />
-<<<<<<< HEAD
-=======
 
           {/* SEARCH + CATEGORY FILTER */}
           <div className="mx-auto mt-10 max-w-5xl rounded-[28px] border border-white/70 bg-white/80 p-4 shadow-xl backdrop-blur-md sm:p-6">
@@ -104,20 +96,14 @@ export default function ProductsPage() {
               ))}
             </div>
           </div>
->>>>>>> 79d90a3 (Initial commit)
         </div>
       </section>
 
       {/* PRODUCTS */}
       <section className="px-4 pb-16 sm:px-6 sm:pb-24 lg:px-10">
         <div className="mx-auto max-w-7xl space-y-16 sm:space-y-24">
-<<<<<<< HEAD
-          {productCategories.map((category) => {
-            const categoryProducts = products.filter(
-=======
           {visibleCategories.map((category) => {
             const categoryProducts = filteredProducts.filter(
->>>>>>> 79d90a3 (Initial commit)
               (product) => product.category === category
             );
 
@@ -132,8 +118,6 @@ export default function ProductsPage() {
               />
             );
           })}
-<<<<<<< HEAD
-=======
 
           {filteredProducts.length === 0 && (
             <div className="rounded-3xl border border-gray-200 bg-white p-10 text-center shadow-sm">
@@ -145,7 +129,6 @@ export default function ProductsPage() {
               </p>
             </div>
           )}
->>>>>>> 79d90a3 (Initial commit)
         </div>
       </section>
 

@@ -23,7 +23,7 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className=" overflow-hidden px-4 pb-16 pt-24 sm:px-6 sm:pb-20 lg:px-10">
+      <section className="relative overflow-hidden px-4 pb-16 pt-24 sm:px-6 sm:pb-20 lg:px-10">
         <div className="absolute inset-0 bg-gradient-to-br from-[#F8FDFF] via-white to-[#FFF7FA]" />
 
         <div className="absolute -left-20 top-0 h-[260px] w-[260px] rounded-full bg-[#36B1C7]/10 blur-[90px] sm:h-[450px] sm:w-[450px] sm:blur-[100px]" />

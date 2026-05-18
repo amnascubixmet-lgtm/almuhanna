@@ -2,24 +2,14 @@ import {
   Mail,
   MapPin,
   Phone,
-<<<<<<< HEAD
   MessageCircle,
-=======
->>>>>>> 79d90a3 (Initial commit)
   Clock3,
 } from "lucide-react";
 
 import CTASection from "@/components/CTASection";
-<<<<<<< HEAD
 import LocationMap from "@/components/LocationMap";
 import SectionHeader from "@/components/SectionHeader";
 import WhatsAppButton from "@/components/WhatsAppButton";
-=======
-import ContactForm from "@/components/ContactForm";
-import LocationMap from "@/components/LocationMap";
-import SectionHeader from "@/components/SectionHeader";
-
->>>>>>> 79d90a3 (Initial commit)
 import { officeLocation } from "@/data/location";
 
 const contactCards = [
@@ -33,13 +23,8 @@ const contactCards = [
   {
     icon: Mail,
     title: "Email Address",
-<<<<<<< HEAD
     value: "sales@almohannasa.com",
     link: "mailto:sales@almohannasa.com",
-=======
-    value: "anstrade@yahoo.com",
-    link: "mailto:anstrade@yahoo.com",
->>>>>>> 79d90a3 (Initial commit)
   },
 
   {
@@ -121,7 +106,6 @@ export default function ContactPage() {
       {/* CONTACT SECTION */}
       <section className="px-4 py-16 sm:px-6 sm:py-24 lg:px-10">
         <div className="mx-auto grid max-w-7xl gap-6 sm:gap-12 lg:grid-cols-2">
-<<<<<<< HEAD
           {/* LEFT */}
           <div className="rounded-3xl border border-white/20 bg-white/80 p-6 shadow-[0_15px_60px_rgba(0,0,0,0.05)] backdrop-blur-2xl sm:rounded-[40px] sm:p-10">
             <div className="inline-flex rounded-full bg-[#36B1C7]/10 px-4 py-2 sm:px-5">
@@ -172,12 +156,6 @@ export default function ContactPage() {
             </div>
           </div>
 
-=======
-          {/* CONTACT FORM */}
-          <ContactForm />
-
-          {/* LOCATION MAP */}
->>>>>>> 79d90a3 (Initial commit)
           <LocationMap />
         </div>
       </section>
@@ -189,8 +167,4 @@ export default function ContactPage() {
       />
     </>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 79d90a3 (Initial commit)

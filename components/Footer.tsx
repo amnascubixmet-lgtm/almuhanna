@@ -158,7 +158,7 @@ export default function Footer() {
                   href="tel:+966561908308"
                   className="mt-2 block text-base font-bold text-white transition hover:text-[#36B1C7] sm:text-lg"
                 >
-                  +966 56 190 8308
+                  96653553364
                 </a>
               ),
             },

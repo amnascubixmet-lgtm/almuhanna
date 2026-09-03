@@ -16,7 +16,7 @@ const contactCards = [
   {
     icon: Phone,
     title: "Phone Number",
-    value: "+966 56 190 8308",
+    value: "96653553364",
     link: "tel:+966561908308",
   },
 

@@ -16,7 +16,7 @@ export default function WhatsAppButton({
   className = "",
   label = "Contact on WhatsApp",
 }: WhatsAppButtonProps) {
-  const phone = "96653553364";
+  const phone = "966531553364";
 
   const message = productName
     ? `Hello, I need more details about:

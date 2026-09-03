@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "96653553364";
+const WHATSAPP_NUMBER = "966531553364";
 
 interface WhatsAppOptions {
   productName?: string;

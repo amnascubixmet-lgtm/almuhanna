@@ -77,7 +77,7 @@ export default function RootLayout({
     logo: "https://www.almuhannaco.com/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+96653553364",
+      telephone: "+966531553364",
       contactType: "customer service",
       areaServed: "SA",
       availableLanguage: ["English", "Arabic"],
@@ -88,7 +88,7 @@ export default function RootLayout({
       addressLocality: "Riyadh",
       addressCountry: "SA",
     },
-    sameAs: ["https://wa.me/96653553364"],
+    sameAs: ["https://wa.me/966531553364"],
   };
 
   return (

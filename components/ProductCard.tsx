@@ -26,7 +26,7 @@ export default function ProductCard({
 Product: ${title}
 Code: ${code}`;
 
-  const whatsappLink = `https://wa.me/96653553364?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/966531553364?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 

@@ -47,6 +47,7 @@ Code: ${code}`;
           src={image}
           alt={title}
           fill
+          sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, 33vw"
           className="object-cover transition duration-700 group-hover:scale-105 sm:group-hover:scale-110"
         />
 
